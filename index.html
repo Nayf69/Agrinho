@@ -1,15 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Campo Cidade</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campo & Cidade</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #a8e6cf, #dcedc1);
+      color: #333;
+    }
+
+    header {
+      background-color: #388e3c;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #66bb6a;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    section {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      color: #2e7d32;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Campo Cidade</h1>
-    <h2></h2>
-    <h3>Vamos descobrir sobre as tecnologias utilizadas no Campo</h3>
+  <header>
+
+    <a href="index1.html"></a><h1>Campo & Cidade</h1>
+
+    <p>O equilíbrio entre natureza e urbanização</p>
+  </header>
+
+  <nav>
+    <a href="#campo">Vida no Campo</a>
+    <a href="#cidade">Vida na Cidade</a>
+  </nav>
+
+  <main>
+    <section id="campo">
+      <h2>Vida no Campo</h2>
+      <p>A tranquilidade do campo oferece um estilo de vida mais calmo, com ar puro, natureza e uma forte conexão com a terra. A vida rural promove bem-estar, cultivo próprio e comunidades mais próximas.</p>
+    </section>
+
+    <section id="cidade">
+      <h2>Vida na Cidade</h2>
+      <p>A cidade é o centro das oportunidades, inovação e diversidade cultural. Apesar da agitação, proporciona acesso rápido a serviços, educação, saúde e entretenimento.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Campo & Cidade. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
